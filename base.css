@@ -1,0 +1,69 @@
+.header-court{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    z-index: 999;
+}
+.white {
+    background-color: white;    
+}
+.is-full-width{
+    width: 100vw;
+}
+.header-court img{
+    height:  48px;
+    
+}
+.header-court .is-padded{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.backgroundImage{
+    margin-top: 88px;
+    background-image: url(rhc1.jpg);
+    height: calc(100% - 88px);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+
+}
+.spaceU{
+    padding-top: 500px;
+}
+.black-text {
+    color: #363636;
+}
+/* =============================
+        BULMA OVERRIDE
+============================= */
+.card-content {
+    padding: .5rem 1rem;
+}
+.column {
+    display: flex;
+    flex: 1;
+}
+.card-header-title {
+    justify-content: center;
+}
+
+/* =============================
+    BULMA LIKE ELEMENTS
+============================= */
+.card.is-flex-centered{
+    display: flex;
+    width: 100%;
+    align-items: center;  
+    justify-content: center;      
+}
+.card.is-card-button {
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+.card.is-card-button:hover {
+    border-color: #000;
+}
